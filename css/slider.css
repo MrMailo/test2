@@ -1,0 +1,62 @@
+/*SlIDER-2*/ /*SlIDER-2*/ /*SlIDER-2*/ /*SlIDER-2*//*SlIDER-2*/ /*SlIDER-2*/ /*SlIDER-2*/ /*SlIDER-2*//*SlIDER-2*/ /*SlIDER-2*/ /*SlIDER-2*/ /*SlIDER-2*/
+.slider__content.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex;
+}
+.slider__content.slick-slider.slick-initialized {
+	padding: 136px 0px 0px 110px;
+}
+/*slider-2 */
+.slider__content {}
+.slider__content-item {max-width: 445px;}
+.slider__content-title {
+	font-family: 'Rubik', sans-serif;
+	font-size: 48px;
+	line-height: 120%;
+	color: #DBE2E9;
+}
+.slider__content-text {
+	font-family: Crimson Text;
+	font-size: 18px;
+	line-height: 120%;
+	color: #fff;
+	max-width: 346px;
+	margin: 40px 0px 133px 0px;
+	padding-left: 4px;
+}
+.slider__content-social {
+    width: 120px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.slider__content-social  a:nth-child(2){margin: 0px 20px;  }
+
+.slider__content {
+	position: relative;
+}
+/* Стрелка */
+.slider__content .slick-arrow{
+	position: absolute;
+	top: 79%;
+	z-index: 10;
+	width: 24px;
+	height: 24px;
+	border: none;
+}
+/* Стрелка влево */
+.slider__content .slick-arrow.slick-prev{
+	/*left: 0;*/
+	background:  url(../img/slider/arrow/dashicons_arrow-right-alt2.svg) 0 0  /100% no-repeat;
+	font-size: 0;
+}
+/* Стрелка вправо */
+.slider__content .slick-arrow.slick-next{
+	right: 0;
+	background:  url(../img/slider/arrow/dashicons_arrow-right-alt2-1.svg) 0 0 /100% no-repeat;
+	font-size: 0;
+}
+
+/*SlIDER-2*/ /*SlIDER-2*/ /*SlIDER-2*/ /*SlIDER-2*//*SlIDER-2*/ /*SlIDER-2*/ /*SlIDER-2*/ /*SlIDER-2*//*SlIDER-2*/ /*SlIDER-2*/ /*SlIDER-2*/ /*SlIDER-2*/
